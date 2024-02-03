@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>to-do task </title>
+</head>
+<body>
+    <div class="deleted justify-content-center align-items-center" id="deleted">
+        <div class="delete-message shadow rounded-3 bg-light">
+            <p>are you sure to delete this task </p>
+            <div>
+                <button class="btn btn-outline-danger" id="sure">sure</button>
+                <button class=" btn btn-outline-success" id="cancel">cancel</button>
+            </div>
+        </div>
+
+    </div>
+    <div class=" container justify-content-center     mt-lg-4">.
+        <div class=" row  ">
+            <div class="header text-center task bg-dark rounded-3  shadow-lg">
+                <h2 class=" text-warning  ">my tasks</h2>
+                <div>
+                    <button id="addTask" class="btn btn-outline-light rounded-circle float-end mx-1  mx-3">
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                    </button>
+                    <div class="add-new-task" id="add-new-task">
+                        <button class="btn btn-outline-warning" id="push-task">add</button>
+                        <input type="text" placeholder="Write here..." name="text" class="input" id="input">
+                        <span id="alert" class="alert-warning rounded-1 p-1 shadow">please enter the task</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contant" id="contant">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
